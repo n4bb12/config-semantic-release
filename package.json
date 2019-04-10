@@ -1,6 +1,6 @@
 {
   "name": "@n4bb12/config-semantic-release",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Shareable semantic-release configuration",
   "keywords": [
     "preset",
