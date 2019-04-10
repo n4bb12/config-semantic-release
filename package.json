@@ -1,0 +1,38 @@
+{
+  "name": "@n4bb12/config-semantic-release",
+  "version": "0.0.0",
+  "description": "Shareable semantic-release configuration",
+  "keywords": [
+    "preset",
+    "release",
+    "semantic",
+    "semantic-release",
+    "shareable"
+  ],
+  "homepage": "https://github.com/n4bb12/config-semantic-release/blob/master/README.md",
+  "bugs": "https://github.com/n4bb12/config-semantic-release/issues",
+  "repository": "github:n4bb12/config-semantic-release",
+  "license": "ISC",
+  "author": "Abraham Schilling",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "release": "semantic-release --no-ci"
+  },
+  "dependencies": {
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/github": "^5.2.10",
+    "@semantic-release/npm": "^5.1.4",
+    "@semantic-release/release-notes-generator": "^7.1.4"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "$schema": "http://json.schemastore.org/package"
+}
