@@ -13,7 +13,7 @@
   <a href="https://raw.githubusercontent.com/n4bb12/config-semantic-release/master/LICENSE">
     <img alt="License" src="https://flat.badgen.net/github/license/n4bb12/config-semantic-release?icon=github">
   </a>
-  <a href="https://github.com/n4bb12/config-semantic-release/issues/new/choose">
+  <a href="https://github.com/n4bb12/config-semantic-release/issues/new">
     <img alt="Issues" src="https://flat.badgen.net/badge/github/create issue/pink?icon=github">
   </a>
 </p>
@@ -21,6 +21,7 @@
 ## Plugins
 
 This configuration use the following plugins:
+
 - [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer)
 - [@semantic-release/release-notes-generator](https://github.com/semantic-release/release-notes-generator)
 - [@semantic-release/npm](https://github.com/semantic-release/npm)
@@ -45,4 +46,4 @@ Extend the configuration in the semantic-release [config file](https://github.co
 
 ## Configuration
 
-See each plugin documentation for configuration options.
+See each plugin's documentation for configuration options.
